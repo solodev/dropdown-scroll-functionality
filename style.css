@@ -1,0 +1,53 @@
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+}
+
+.dropdown-menu {
+    padding: 0;
+    box-shadow: -1.095px 6.914px 12.96px 3.04px rgba(51,51,51,.27);
+    max-height: 450px;
+    overflow: hidden;
+}
+
+.dropdown .dropdown-menu a.down {
+    bottom: 0;
+    top: auto;
+}
+
+.dropdown button {
+    background: 0 0!important;
+    border: 0!important;
+}
+
+.dropdown .dropdown-menu a.arrow {
+    text-align: center;
+    padding-left: 0;
+    position: absolute;
+    background: #fff;
+    text-indent: 0;
+    z-index: 2;
+}
+
+.dropdown .dropdown-menu a.check:before {
+    content: '\f00c';
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+
+.dropdown button.dropdown-nav:after {
+    content: none;
+}
+
+.dropdown .dropdown-menu a {
+    padding: 6px 0 6px 43px;
+    position: relative;
+}
+
+.dropdown .dropdown-menu a:hover,
+.dropdown .dropdown-menu a.arrow:hover {
+    background: #d60e96;
+    color: #fff;
+}
